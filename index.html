@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Cheat Sheet</title>
+</head>
+<!--  
+	# Inline elements :
+		-> Do not start on a new line
+		-> Take only the necessary width
+
+	# Block Elements
+		-> Start on a new line
+		-> Take full width available
+
+	# Block Level: <div>, <h1> - <h6>, <p>, <form>
+	# Inline Level: <span>, <img>, <a>, <label>,<input>
+
+-->
+
+<body>
+
+	<a href="blog.html">Go to blog</a>
+	<hr>
+    <!-- Headings -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+    <!-- Paragraph -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<strong> Dolores tempora quasi </strong> in, illum repudiandae, ipsum totam fugiat aliquid corporis soluta cupiditate rerum nam nisi quas, mollitia <em>exercitationem voluptatibus </em>ut. Eligendi.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="http://google.com" target="_blank">Assumenda exercitationem saepe earum </a>suscipit consectetur et sint doloremque quam repellat alias maxime a quisquam eaque inventore fugit beatae, animi officiis fugiat natus corporis ipsa enim doloribus quidem quasi? Quo, natus, culpa!</p>
+    <!-- Lists -->
+    <ul>
+        <li>List item -1</li>
+        <li>List item -2</li>
+        <li>List item -3</li>
+        <li>List item -4</li>
+        <li>List item -5</li>
+    </ul>
+    <ol>
+        <li>List item -1</li>
+        <li>List item -2</li>
+        <li>List item -3</li>
+        <li>List item -4</li>
+        <li>List item -5</li>
+    </ol>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brad Traversy</td>
+                <td>brad@something.com</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>john@something.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Sara Williams</td>
+                <td>sara@something.com</td>
+                <td>55</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <!-- Forms -->
+    <form action="" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter First Name">
+            <!-- Before html5 there is no placeholder
+			property , you have to maintain value property using JS which is a real pain in the ass-->
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email	">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Bithday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+    <!--  Button  -->
+    <button>Click Me</button>
+    <br>
+    <hr>
+    <!--  Image -->
+    <a href="images/tony_at_work_75.jpg">
+	<img src="images/tony_at_work_75.jpg" alt="My Sample Image" width="200" >
+	</a>
+    <!-- Quotations -->
+    <blockquote cite="http://traversymedia.com">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, velit quas minus esse ipsum accusamus impedit deleniti tempora est aliquam nesciunt beatae tempore suscipit quam molestias similique sed cum vel. Ea repellat cupiditate odit similique a magni, libero debitis veritatis!
+    </blockquote>
+    <p>The
+        <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+    <p>HTML crash course
+        <cite>by Brad Traversy</cite>
+    </p>
+	
+	<br>
+	<hr>
+    <img src="images/html5_semantic.jpg" alt="HTML5 semantic" width="800">
+    <div style="margin-top:500px"></div>
+</body>
+
+</html>
